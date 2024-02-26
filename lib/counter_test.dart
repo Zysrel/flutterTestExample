@@ -34,6 +34,12 @@ main(){
 
   });
 
+  test('Given counter class is instantiated, when incrementCount is called and rest, then count = 0  ', () {
+   counter.incrementCount();
+   counter.rest();
+  expect(counter.count, 0);
+  });
+
 });
 
 }

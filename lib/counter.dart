@@ -13,4 +13,7 @@ class Counter {
   _count--;
  }
  
+ void rest(){
+  throw UnimplementedError();
+ }
 }
